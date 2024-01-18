@@ -1,0 +1,6 @@
+create table stu_info(stu_number number, stu_name varchar(20), stu_add varchar(40), stu_contact number)
+insert into stu_info values (7," Cristiano Ronalo","mediera",17)
+insert into stu_info values (7,"Kylian Mbappe.","Paris",10)
+delete from stu_info where stu_name = "Lionel Messi";
+update Stu_info Set Stu_number = 10 where stu_name = "Lionel Messi";
+update Stu_info Set Stu_number = 11 where stu_name = "Neymar Jr.";
